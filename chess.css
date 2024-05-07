@@ -1,0 +1,23 @@
+body {background-color: black; display: flex; justify-content: center; height: 97vh; align-items: center;}
+main {
+    height: 520px;
+    width: 520px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 40px;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+}
+
+.wcir {
+    background-color: white;
+}
