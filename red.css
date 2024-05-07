@@ -1,0 +1,37 @@
+body {background-color: black; display:flex; justify-content: center; align-items: center;} 
+
+main {
+    background-color: brown;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dv {
+    background-color: rgba(0,0,0,0.2);
+    height: 250px;
+    width: 250px;
+}
+
+.c3 {}
+
+.c2 {
+
+}
+
+.dv div {    
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;}
+#wc {
+    background-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 25px;    
+}

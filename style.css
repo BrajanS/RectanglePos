@@ -29,3 +29,51 @@ body {
     bottom: 260px;
     left: 60px;
 }
+
+#M {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    height: 450px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box3 {
+    height: 340px;
+    width: 340px;
+    background-color: rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    
+}
+.circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#c1,#c2,#c3 {
+    
+}
+#c5 {background-color: white;}
