@@ -15,12 +15,6 @@ main {
     width: 250px;
 }
 
-.c3 {}
-
-.c2 {
-
-}
-
 .dv div {    
     background-color: rgba(0,0,0,0.1);
     border-radius: 50%;
@@ -35,3 +29,14 @@ main {
     position: relative;
     top: 25px;    
 }
+
+#c42 {position: relative; bottom: 150px;}
+#c43 {position: relative; bottom: 400px; left: 50px;}
+#c44 {position: relative; bottom: 550px; left: 50px;}
+
+#c31 {position: relative; left: 25px;}
+#c32 {position: relative; bottom: 150px;}
+#c33 {position: relative; bottom: 350px; left: 50px;}
+
+#c21 {position: relative; top: 0; left: 0;}
+#c22 {position: relative; bottom: 150px; left: 50px;}
