@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: black;
+}
+
+main {
+    background-color: lightsteelblue;
+    height: 440px;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle {
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.planet {
+    background-color:red;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    
+}
+.aa {
+    position:absolute;
+    top: 0px;
+    left: 37%;
+}
+
+.bb {
+    position: absolute;
+    top: 50%;
+    right: -6px;
+}
+.cc {
+    position: absolute;
+    top: 75%;
+    left: 6%
+}
+
+.dd {
+    position: absolute;
+    top: 0;
+    left: 62%;
+    
+}
+.ee {
+    position: absolute;
+    top: 34%;
+    left: 0;
+}
+.ff {
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+}
+
+.gg {
+    position: absolute;
+    top: 0;
+    left: 32%;
+}
+
+.hh {
+    position: absolute;
+    bottom: -1%;
+    left: 32%;
+}
+
+.ii {
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+}
+
+.jj {
+    position: absolute;
+    bottom: -6%;
+    left: 52%;
+}
+.kk {
+    position: absolute;
+    left: -5%;
+    bottom: 56%;
+}
+.ll {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+}
+.c2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.c3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+}
+.c4:hover {
+    animation-name: myRotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 10ms; */
+    animation-timing-function: linear;
+}
+@keyframes myRotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    8.34% {
+        transform: rotate(30deg);
+    }
+    16.6% {
+        transform: rotate(60deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    33.34% {
+        transform: rotate(120deg);
+    }
+    41.68% {
+        transform: rotate(150deg);
+    }
+    50.02% {
+        transform: rotate(180deg);
+    }
+    58.36% {
+        transform: rotate(210deg);
+    }
+    66.7% {
+        transform: rotate(240deg);
+    }
+    75.04% {
+        transform: rotate(270deg);
+    }
+    83.38%{
+        transform: rotate(300deg);
+    }
+    91.72% {
+        transform: rotate(330deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    /* 0% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    } */
+}
+
+.c4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
