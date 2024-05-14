@@ -21,6 +21,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    position: absolute;
 }
 .lights {
     width: 40px;
@@ -46,7 +47,32 @@ main {
     animation-duration: 3s;
     animation-delay: 9s;
 }
-@keyframes gFunction {
+.All {
+    position: absolute;
+    top: 2.5px;
+    animation-name: allFunction;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: steps(3,end);
+}
+
+@keyframes allFunction {
+    0% {
+        background-color: green;
+        translate: 0;
+    }
+    50% {
+        
+        /* transform: translateY(42.5px); */
+        background-color: yellow;
+    }
+    100% {
+        /* bottom: 2.5px; */
+        transform: translateY(127.5px);
+        background-color: red
+    }
+}
+/* @keyframes gFunction {
     0% {}
     50% {}
     100% {background-color: green;}
@@ -60,4 +86,4 @@ main {
     0% {}
     50% {}
     100% {background-color: red;}
-}
+} */
