@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #364471;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.B {
+    height: 198px;
+    width: 198px;
+
+}
+
+#C {
+    height: 0px;
+    width: 0px;
+    border-left: 99px solid transparent;
+    border-right: 99px solid transparent;
+    border-bottom: 198px solid white;
+    /* background-color: white; */
+}
